@@ -1,0 +1,43 @@
+*{
+  font-family: "Mukta", sans-serif;
+}
+h1 , h2 {
+  font-family: "Cormorant Infant", serif;
+}
+
+.text-skyblue{
+  color: rgb(5, 154, 213);
+}
+
+.text-darkblue{
+  color: rgb(26, 37, 139);
+}
+
+.navbar{
+  border: solid 1px rgba(154, 154, 154, 0.227);
+}
+
+.navbtn{
+  font-weight: 600;
+  border: solid 1px rgba(154, 154, 154, 0.199);
+  display: flex;
+  justify-content: center;
+  padding: 1vh;
+}
+
+.banner{
+  background-image: url('./img/banner.webp');
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+}
+
+.btn-darkblue{
+  background-color: rgb(3, 3, 91);
+  color: white;
+  border-color: transparent;
+  font-size: 1vw;
+  padding: 1vh;
+  padding-left: 1.5vw;
+  padding-right: 1.5vw;
+}
