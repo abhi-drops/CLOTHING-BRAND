@@ -1,6 +1,7 @@
 <!doctype html>
 
 <html lang="en">
+
   <head>
 
     <meta charset="utf-8">
@@ -29,27 +30,28 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
   </head>
-  <body style="overflow-x: hidden;">
+  <body style="">
 
-   <div class="container-fluid p-0">
+   <div class="container-fluid p-0 ">
      <!-- navbar -->
 
      <nav class="navbar bg-body-light">
       <div class="container-fluid px-5">
-        <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-primary text-light " type="submit" style="background-color: rgb(5, 154, 213); border-color: transparent;"><i class="fa-solid fa-magnifying-glass"></i></button>
+        <form class="d-flex " role="search">
+          <input class="form-control " type="search" placeholder="Search" aria-label="Search" style="border-radius: 0;">
+          <button class="btn btn-primary text-light " type="submit" style="border-radius: 0; background-color: rgb(5, 154, 213); border-color: transparent;"><i class="fa-solid fa-magnifying-glass"></i></button>
         </form>
         <div class="d-flex flex-column justify-content-center align-items-center">
           <img width="75px" src="./img/drop.webp" alt="">
           <h2 class="text-darkblue" style="font-size: larger; padding: 0; margin: 0;">GNARLY</h2>
-          <h2 class="text-skyblue" style="font-size: medium;">FISH</h2>
+          <h3 class="text-skyblue" style="font-size:small; font-weight: 500; letter-spacing: 5px; ">FISH</h3>
         </div>
 
-        <div class="d-flex gap-3 align-items-center">
-          <h6 class="text-skyblue">LOGIN</h6>
-          <h6>REGISTER</h6>
-          <button class="btn btn-light">
+       <div class="d-flex gap-3 align-items-center justify-content-center ">
+          <h6 class="text-skyblue mt-2">LOGIN</h6>
+          <div class="line"></div>
+          <h6 class="mt-2">REGISTER</h6>
+          <button class="btn btn-light" >
             <i class="fa-solid fa-cart-shopping"></i>
             <i class="fa-solid fa-caret-down"></i>
           </button>
@@ -57,7 +59,7 @@
       </div>
     </nav>
 
-    <div class="row  justify-content-center">
+    <div class="row justify-content-center m-0 p-0 ">
       <div class="col-1 navbtn text-darkblue ">HOME</div>
       <div class="col-1 navbtn">MEN'S</div>
       <div class="col-1 navbtn">WOMEN'S</div>
@@ -69,7 +71,10 @@
     <!-- banner -->
 
     <div class="banner">
-      <div class="col-3" style="position: relative; top: 25vh; left: 60vw;">
+      <div>
+        <img src="./img/dripdrops.png" width="200vw" alt="" style="position: relative; left: 60vw;">
+      </div>
+      <div class="col-3" style="position: relative; top: 20vh; left: 60vw;">
         <div class="d-flex gap-3 ">
           <h1 class="text-darkblue fw-bold"  style="font-size: 4vw;">GNARLY </h1>
           <h1 class="text-skyblue fw-bold"  style="font-size: 4vw;">FISH</h1>
@@ -83,28 +88,253 @@
       </div>
     </div>
     <!-- cards -->
-     <div class="row m-0">
-      <div class="col-4 d-flex flex-column" >
-        <div class="col-12 m-0" style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPmb3vBCWGiQRSDIze6Qka4Z3MY3cSWuzaZw&s'); height: 250px; background-size: cover;">
+    <div class="cardgroup row m-0 p-0 ">
+      <div class="col cardcol p-0">
+
+        <div class="cardp p-0 m-2" style="background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.542)), url('https://cdn.pixabay.com/photo/2016/12/04/23/22/hat-1882816_640.jpg');">
+          <div class="cardcon d-flex flex-column  align-items-start ps-3 col-6">
+            <h2 class="text-light">HATS</h2>
+            <p  class="text-light " >Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+            <button type="button" class="btn btn-outline-info ">ADD TO CART</button>
+          </div>
         </div>
-        <div class="col-12 m-0" style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJxGBGYHEVJlGFWzGsKYb-UoKKgy5nYwNhFw&s'); height: 250px; background-size: cover;">
+
+        <div class="cardp p-0 m-2" style="background-image:linear-gradient(to left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.542)), url('https://media.istockphoto.com/id/1700525983/photo/african-american-fisher-catches-trout-on-mountain-river.webp?b=1&s=170667a&w=0&k=20&c=1ei_m0QJ3gtDsuNiO9zd2B2M4YtyAVhQH3C9wLgnhkw=');">
+          <div class="cardconr d-flex flex-column  align-items-start ps-3 col-6">
+            <h2 class="text-light">SHIRTS</h2>
+            <p  class="text-light "  >Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+            <button type="button" class="btn btn-outline-info ">ADD TO CART</button>
+          </div>
         </div>
 
       </div>
-      <div class="col-4 m-0">
-        <div class="col-12 m-0" style="background-image: url('https://hips.hearstapps.com/hmg-prod/images/close-up-of-different-fishing-tackle-royalty-free-image-1682528963.jpg?crop=1xw:1xh;center,top&resize=980:*'); height: 500px; background-size: cover;">
+
+      <div class="col cardcol p-0 ">
+        <div class="cardpm p-0 m-2" style="background-image:linear-gradient(to top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.542)),  url('https://fishingmunk.com/wp-content/uploads/2022/01/spinning-reel-under-100.jpg');">
+          <div class="cardconr d-flex flex-column  align-items-center  text-center">
+            <h2 class="text-light">HEAD DEFENSE</h2>
+            <p  class="text-light col-6 "  >Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+            <button type="button" class="btn btn-outline-info ">ADD TO CART</button>
+          </div>
         </div>
       </div>
-      <div class="col-4 d-flex flex-column m-0">
-        < <div class="col-12 m-0" style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPmb3vBCWGiQRSDIze6Qka4Z3MY3cSWuzaZw&s'); height: 250px; background-size: cover;">
+
+      <div class="col cardcol p-0 ">
+        <div class="cardp p-0 m-2" style="background-image:linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.542)), url('https://www.yellowbirdproducts.com/wp-content/uploads/elementor/thumbs/5-Ultralight-Fishing-Tips-to-Help-You-Land-that-Trophy-Fish-pro70l5evdpdf0ktiq1gbvv51a41oggqfuzuzqro20.jpg');">
+          <div class="cardcon d-flex flex-column  align-items-start ps-3 col-6">
+            <h2 class="text-light">GEAR</h2>
+            <p  class="text-light " >Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+            <button type="button" class="btn btn-outline-info ">ADD TO CART</button>
+          </div>
         </div>
-        <div class="col-12 m-0" style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJxGBGYHEVJlGFWzGsKYb-UoKKgy5nYwNhFw&s'); height: 250px; background-size: cover;">
+
+        <div class="cardp p-0 m-2" style="background-image:linear-gradient(to left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.542)), url('https://www.aftco.com/cdn/shop/files/1800x875_womens-page-banner.jpg?v=1694793741&width=1920');">
+          <div class="cardconr d-flex flex-column  align-items-start ps-3 col-6">
+            <h2 class="text-light">WOMEN</h2>
+            <p  class="text-light "  >Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+            <button type="button" class="btn btn-outline-info ">ADD TO CART</button>
+          </div>
         </div>
+
       </div>
-     </div>
+    </div>
     <!-- featured collection cards-->
+     <div class="fcc">
+      <h2 class="text-center text-darkblue fw-bold">FEATURED <span class="text-skyblue" style=' font-family: "Cormorant Infant", serif;'>COLLECTION</span></h2>
+        <!-- logo with line -->
+      <div class="logoline d-flex justify-content-center">
+        <div class="lll "></div>
+        <div><img width="35vw" src="./img/drop.webp" alt=""></div>
+        <div class="lll "></div>
+      </div>
+        <!-- cards2 -->
+         <div class="cards2collection d-flex gap-5 justify-content-center align-items-center mt-5">
+
+          <div >
+            <button type="button" class="btn btn-outline-secondary mb-5"><i class="fa-solid fa-chevron-left"></i></button>
+          </div>
+
+          <div class="cards2 d-flex flex-column align-items-center justify-content-center col-2">
+            <div class="cards2t d-flex flex-column align-items-center justify-content-center">
+              <img style="width: 100%; height: 100%; object-fit: cover;" src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/6102d2c3f0fd4ce1a3e180b34b157c95_9366/Cap_White_IL4851_01_standard.jpg" alt="">
+              <h2 style="font-size: large; " class="fw-bold mt-3">HATS</h2>
+              <h6 class="text-secondary m-3"><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></h6>
+            </div>
+            <div class="cards2b d-flex col-12 justify-content-center align-items-center">
+              <div class="text-center col m-0">
+                <h6 class="m-0 text-decoration-line-through text-secondary">15.25 $</h6>
+                <h5 class="m-0 fw-bold text-skyblue">12.36 $</h5>
+              </div>
+              <button class="btn-darkblue col" style="height: 50px;">SHOP NOW > </button>
+            </div>
+          </div>
+
+          <div class="cards2 d-flex flex-column align-items-center justify-content-center col-2">
+            <div class="cards2t d-flex flex-column align-items-center justify-content-center">
+              <img style="width: 100%; height: 100%; object-fit: cover;" src="https://www.snitch.co.in/cdn/shop/collections/2.jpg?v=1680513003" alt="">
+              <h2 style="font-size: large; " class="fw-bold mt-3">SHIRTS</h2>
+              <h6 class="text-secondary m-3"><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></h6>
+            </div>
+            <div class="cards2b d-flex col-12 justify-content-center align-items-center">
+              <div class="text-center col m-0">
+                <h6 class="m-0 text-decoration-line-through text-secondary">15.25 $</h6>
+                <h5 class="m-0 fw-bold text-skyblue">12.36 $</h5>
+              </div>
+              <button class="btn-darkblue col" style="height: 50px;">SHOP NOW > </button>
+            </div>
+          </div>
+
+          <div class="cards2 d-flex flex-column align-items-center justify-content-center col-2">
+            <div class="cards2t d-flex flex-column align-items-center justify-content-center">
+              <img style="width: 100%; height: 100%; object-fit: cover;" src="https://target.scene7.com/is/image/Target/GUEST_677905c8-2c41-4082-8085-d8f741abc69b?wid=488&hei=488&fmt=pjpeg" alt="">
+              <h2 style="font-size: large; " class="fw-bold mt-3">WOMEN</h2>
+              <h6 class="text-secondary m-3"><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></h6>
+            </div>
+            <div class="cards2b d-flex col-12 justify-content-center align-items-center">
+              <div class="text-center col m-0">
+                <h6 class="m-0 text-decoration-line-through text-secondary">15.25 $</h6>
+                <h5 class="m-0 fw-bold text-skyblue">12.36 $</h5>
+              </div>
+              <button class="btn-darkblue col" style="height: 50px;">SHOP NOW > </button>
+            </div>
+          </div>
+
+          <div class="cards2 d-flex flex-column align-items-center justify-content-center col-2">
+            <div class="cards2t d-flex flex-column align-items-center justify-content-center">
+              <img style="width: 100%; height: 100%; object-fit: cover;" src="https://rukminim2.flixcart.com/image/850/1000/kuyf8nk0/bottle-opener/z/y/g/bottle-opener-for-sodas-cold-drinks-beer-bartools-bottle-can-original-imag7ykjwam5tbje.jpeg?q=90&crop=false" alt="">
+              <h2 style="font-size: large; " class="fw-bold mt-3">GEAR</h2>
+              <h6 class="text-secondary m-3"><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></h6>
+            </div>
+            <div class="cards2b d-flex col-12 justify-content-center align-items-center">
+              <div class="text-center col m-0">
+                <h6 class="m-0 text-decoration-line-through text-secondary">15.25 $</h6>
+                <h5 class="m-0 fw-bold text-skyblue">12.36 $</h5>
+              </div>
+              <button class="btn-darkblue col" style="height: 50px;">SHOP NOW > </button>
+            </div>
+          </div>
+
+          <div >
+            <button type="button" class="btn btn-outline-secondary mb-5"><i class="fa-solid fa-chevron-right"></i></button>
+          </div>
+
+
+         </div>
+     </div>
     <!-- instagram cards -->
+
+    <div class="instacards my-5 pt-5">
+
+      <h2 class="text-center text-darkblue fw-bold">GNARLY FISH <span class="text-skyblue" style=' font-family: "Cormorant Infant", serif;'>#INSTAGRAM</span></h2>
+         <!-- logo with line -->
+         <div class="logoline d-flex justify-content-center">
+          <div class="lll "></div>
+          <div><img width="35vw" src="./img/drop.webp" alt=""></div>
+          <div class="lll "></div>
+        </div>
+
+        <div class="photogroup d-flex gap-3 m-3">
+          <img class="col" width="200vw" src="https://www.tallahassee.com/gcdn/presto/2023/05/11/PTAL/a111ba1f-c610-4210-8889-a57515c4f2e3-FISHY.jpg?width=660&height=660&fit=crop&format=pjpg&auto=webp" alt="">
+          <img class="col" width="200vw" src="https://upload.wikimedia.org/wikipedia/commons/4/45/Wikisurf.jpg" alt="">
+          <img class="col" width="200vw" src="https://contents.mediadecathlon.com/p2450385/9de9ff63d8397e2896a35b4a9f253162/p2450385.jpg?format=auto&quality=70&f=650x0" alt="">
+          <img class="col" width="200vw" src="https://cdn.britannica.com/46/59046-050-2DABC138/Fishing-beluga-sturgeon-Volga-River-Russia-Volgograd.jpg?w=200&h=200&c=crop" alt="">
+          <img class="col" width="200vw" src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/f988deeb-88cf-42fd-8faa-0cd940ca2b1a/sportswear-chill-knit-womens-t-shirt-XFbdSG.png" alt="">
+          <img class="col" width="200vw" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpNUCo3CiM9NExEtYtsdUKz_7IMvC0yVuYvw&s" alt="">
+          <img class="col" width="200vw" src="https://cdn.outsideonline.com/wp-content/uploads/2023/05/fishing-gear-sgg23_s.jpg" alt="">
+        </div>
+
+    </div>
     <!-- footer -->
+
+    <div class="footer pt-5" style="background-color: rgba(233, 233, 233, 0.57);">
+      <div class="footerup d-flex justify-content-between align-items-center gap-5 px-5 mx-5">
+
+        <div>
+          <div class=" ms-4">
+            <h2 class="fw-bold" style="font-size: large;">NAVIGATION</h2>
+            <hr>
+          </div>
+
+          <ul type="none">
+            <li><a href="">Home</a></li>
+            <li><a href="">Mens's</a></li>
+            <li><a href="">Women's</a></li>
+            <li><a href="">About Us</a></li>
+            <li><a href="">Contact</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <div class=" ms-4">
+            <h2 class="fw-bold" style="font-size: large;">SOCIAL MEDIA</h2>
+            <hr>
+          </div>
+
+          <ul type="none">
+            <li><a href=""><i class="fa-brands fa-facebook-f fa-xs"></i> Facebook</a></li>
+            <li><a href=""><i class="fa-brands fa-x-twitter fa-xs"></i> Twitter</a></li>
+            <li><a href=""><i class="fa-brands fa-google fa-xs"></i> Google</a></li>
+            <li><a href=""><i class="fa-brands fa-youtube fa-xs"></i> YouTube</a></li>
+            <li><a href=""><i class="fa-brands fa-instagram fa-xs"></i> Instagram</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <div class=" ms-4">
+            <h2 class="fw-bold" style="font-size: large;">HELP</h2>
+            <hr>
+          </div>
+
+          <ul type="none">
+            <li><a href="">Customer Service</a></li>
+            <li><a href="">Countries We Ship To</a></li>
+            <li><a href="">Returns 7 Exchanges</a></li>
+            <li><a href="">Size Guide</a></li>
+            <li><a href="">Wholescale Inquiries</a></li>
+          </ul>
+        </div>
+
+        <div class="d-flex flex-column pb-5">
+          <div class="">
+            <h2 class="fw-bold" style="font-size: large;">NEWSLETTER</h2>
+            <hr>
+          </div>
+
+          <form class="d-flex " role="search">
+            <input class="form-control " type="email" placeholder="Search" aria-label="Search" style="border-radius: 0;">
+            <button class="btn btn-primary text-light " type="submit" style="border-radius: 0; background-color: rgb(5, 154, 213); border-color: transparent;"><i class="fa-solid fa-magnifying-glass"></i></button>
+          </form>
+
+          <img width="200px" class="mt-4" src="./img/pngegg.png" alt="">
+
+        </div>
+
+
+      </div>
+
+
+        <div class="bg-light">
+          <hr class="">
+        <div class="d-flex gap-3 justify-content-center align-items-center bg-light text-secondary">
+
+
+          <div class="logo" style="background-image: url('./img/drop.webp'); width: 25px; height: 25px; background-size: cover; background-position: center; background-blend-mode:screen;">
+
+          </div>
+
+          <div class="line mt-1"></div>
+
+          <p class="mt-3">(c) 2024 <span>GNARLY </span><span>FISH </span> .all rights reserved.</p>
+
+          <div class="line mt-1"></div>
+
+          <p class="mt-3">Privacy Policy</p>
+
+        </div>
+        </div>
+
+
+    </div>
    </div>
 
   </body>

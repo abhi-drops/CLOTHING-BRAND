@@ -4,6 +4,11 @@
 h1 , h2 {
   font-family: "Cormorant Infant", serif;
 }
+.line{
+  width: 1px;
+  height: 13px;
+  background-color: rgba(0, 0, 0, 0.216);
+}
 
 .text-skyblue{
   color: rgb(5, 154, 213);
@@ -20,6 +25,7 @@ h1 , h2 {
 .navbtn{
   font-weight: 600;
   border: solid 1px rgba(154, 154, 154, 0.199);
+  border-bottom: 0;
   display: flex;
   justify-content: center;
   padding: 1vh;
@@ -40,4 +46,60 @@ h1 , h2 {
   padding: 1vh;
   padding-left: 1.5vw;
   padding-right: 1.5vw;
+}
+
+.cardcol{
+  height: 70vh;
+  background-color: rgb(255, 255, 255);
+}
+
+.cardp{
+  width: 97%;
+  background-color: red;
+  height: 45%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+
+
+
+.cardpm{
+  width: 100%;
+  height: 91.5%;
+  background-color: green;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.btn-outline-info{
+  border-radius: 0;
+  border: solid 1px;
+  font-weight: bold;
+}
+
+.cardcon{
+  position: relative;
+  left: 50%;
+  top: 10%;
+
+}
+.cardconr{
+  position: relative;
+
+  top: 10%;
+
+}
+
+.lll{
+  width: 10.5vw;
+  height: 2px;
+  background-color: rgba(0, 0, 0, 0.245);
+  margin-top: 2vh;
+}
+
+.footerup a {
+  text-decoration: none;
+  color: grey;
 }
