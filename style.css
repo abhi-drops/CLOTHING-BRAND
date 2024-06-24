@@ -4,6 +4,11 @@
 h1 , h2 {
   font-family: "Cormorant Infant", serif;
 }
+
+.font-ci{
+  font-family: "Cormorant Infant", serif;
+}
+
 .line{
   width: 1px;
   height: 13px;
