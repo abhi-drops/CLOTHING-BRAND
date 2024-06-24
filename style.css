@@ -36,6 +36,10 @@ h1 , h2 {
   padding: 1vh;
 }
 
+.navbtn:hover{
+  background-color: rgba(232, 232, 232, 0.53);
+}
+
 .banner{
   background-image: url('./img/banner.webp');
   background-size: cover;
@@ -51,6 +55,12 @@ h1 , h2 {
   padding: 1vh;
   padding-left: 1.5vw;
   padding-right: 1.5vw;
+}
+
+.btn-darkblue:hover{
+  background-color: rgb(5, 154, 213);
+  border-color: rgba(255, 255, 255, 0.434);
+  transition: all 0.3s;
 }
 
 .cardcol{
@@ -107,4 +117,19 @@ h1 , h2 {
 .footerup a {
   text-decoration: none;
   color: grey;
+}
+
+.footerup a:hover{
+  color: rgb(42, 42, 42);
+}
+
+.pgc:hover{
+  scale: 1.1;
+  transition: all 0.3s;
+}
+
+.cards2:hover{
+  background-color: rgba(53, 53, 53, 0.053);
+  transition: all 0.3s;
+  scale: 1.1;
 }
